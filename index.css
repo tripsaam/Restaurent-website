@@ -1,0 +1,150 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+p {
+  font-family: "Montserrat-Black";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #8f8f8f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+.colored-section {
+  /* background: #171010; */
+  /* background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(19, 228, 38, 0.850577731092437) 51%, rgba(111, 106, 158, 1) 100%, rgba(176, 133, 42, 1) 100%);
+  padding: 7% 15%;
+  font-family: "Montserrat";
+  text-align: center;
+  color: #FAEBE0;
+}
+
+.night-mode-color{
+  background: #171010;
+  padding: 7% 15%;
+  font-family: "Montserrat";
+  text-align: center;
+  color: #FAEBE0;
+}
+
+.white-section {
+  padding: 7% 15%;
+  text-align: center;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+.night-mode-white{
+  background: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #FAEBE0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: #FAEBE0;
+}
+
+.btn {
+  padding: 10px 10px;
+}
+
+.image_left {
+  height: 400px;
+  width: 400px;
+}
+
+.heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 10%;
+}
+
+.subheading {
+  margin-bottom: 10%;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.main-container {
+  margin: auto 10%;
+}
+
+.testimonial-image {
+  width: 600px;
+  height: 400px;
+  margin-bottom: 10%;
+}
+
+.section-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1200px) {
+  .testimonial-image {
+    width: 500px;
+    height: 300px;
+  }
+
+  .image_left {
+    height: 500px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .testimonial-image {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .testimonial-image {
+    width: 300px;
+    height: 150px;
+  }
+
+  .image_left {
+    height: 300px;
+    width: 300px;
+  }
+}
